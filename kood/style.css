@@ -3,15 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-.kass{
-    position: fixed;
-    top: 0;
-    /* height: screen; */
-    /* width: screen; */
-    object-fit: cover;
-    z-index: -10;
-    /* filter: blur(0px); */
-}
 header{
     height: 12.5rem;
     border-bottom: 1px solid white;
@@ -25,46 +16,8 @@ header{
 .head-container p {
     font-size: 70px;
     font-weight: lighter;
-    color: white;
+    color: black;
 }
-.dropbtn {
-    background-color: transparent;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-.dropdown {
-  position: absolute;
-  display: inline-block;
-  right: 50px;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: black;
-  min-width: 100px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border: 1px solid white;
-  border-radius: 5px 5px;
-}
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown a:hover {
-    border-bottom: solid 2px white;
-    width: 60px;
-    padding-left: 5px;
-}
-/* naitab dropdowni, suht timm */
-.show {display: block;}
-
 .body{
     position: relative;
     height: 400px;
@@ -76,50 +29,12 @@ header{
     width: 75%;
     top: 20%;
     position: absolute;
-    color: white;
-}
-@keyframes poks {
-    0%   {background-color: rgb(255, 162, 0);}
-    25%  {background-color: yellow;}
-    50%  {background-color: rgb(208, 255, 0);}
-    100% {background-color: rgb(6, 128, 0);}
+    color: black;
 }
 .nupud{
     display: none;
 }
-/* random ass kast (poks) */
-.poks{
-    height: 25px;
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    animation-name: poks;
-    animation-duration: 0.5s;
-}
-.poks p{
-    font-size: larger;
-    font-family: 'Courier New', Courier, monospace;
-}
-.poks button{
-    /* background-color: Transparent; */
-    border: none;
-    background-color: rgba(255,255,255,0);
-}
-.feet{
-    width: screen;
-    height: 175px;
-    border-top: 1px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-.footer-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 @media screen and (max-width: 700px) {
     header{
         width: screen;
@@ -150,7 +65,7 @@ header{
     /* tee siia 4 buttonit, mis ilmuvad footeri peale kui ekraani vaikseks tombad */
     .nupud-con{
         position: relative;
-        height: 80px;
+        height: 110px;
     }
     .nupud{
         width: 75px;
@@ -159,6 +74,8 @@ header{
         background-color: transparent;
         display: block;
         color: white;
+        border: 1px solid white;
+        border-radius: 10px;
     }
     .nupud:hover{
         box-shadow: 2px 5px 10px 5px #333;
@@ -166,22 +83,22 @@ header{
     }
     .nupud1{
         position: absolute;
-        top: 70px;
+        top: 90px;
         left: 50%;
         transform: translate(-50%, -50%);
     }.nupud2{
         position: absolute;
-        top: 50px;
+        top: 65px;
         left: 50%;
         transform: translate(-50%, -50%);
     }.nupud3{
         position: absolute;
-        top: 30px;
+        top: 40px;
         left: 50%;
         transform: translate(-50%, -50%);
     }.nupud4{
         position: absolute;
-        top: 10px;
+        top: 15px;
         left: 50%;
         transform: translate(-50%, -50%);
     }

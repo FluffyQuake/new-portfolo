@@ -1,18 +1,18 @@
 
 // nupp
-var clicks = 0;
+// var clicks = 0;
 
-function onClick() {
-  clicks += 1;
-  document.getElementById("clicks").innerHTML = clicks;
-};
+// function onClick() {
+//   clicks += 1;
+//   document.getElementById("clicks").innerHTML = clicks;
+// };
 
-//kollane bg nupule
-const btn = document.getElementById('btn');
-btn.addEventListener('click', function onClick(event) {
-    event.target.style.backgroundColor = 'yellow';
-    console.log(event.target);
-})
+// kollane bg nupule
+// const btn = document.getElementById('btn');
+// btn.addEventListener('click', function onClick(event) {
+//     event.target.style.backgroundColor = 'yellow';
+//     console.log(event.target);
+// })
 
 
 // dropdown
